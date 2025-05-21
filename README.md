@@ -190,7 +190,7 @@ Replace <private-ip-of-*> with the internal IPs assigned to each VM’s NIC.
 
 # 6. Testing & Validation
 1. SSH into each VM to confirm services are running:
-     ssh azureuser@<public-ip-vm>
+    ssh azureuser@<public-ip-vm>
     systemctl status mariadb    # on VM1
     systemctl status tomcat9    # on VM2
     systemctl status memcached  # on VM3
